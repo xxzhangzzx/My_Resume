@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zhixiang Zhang — Data Science student, developer, and generative AI builder." />
+  <meta name="theme-color" content="#f4f1ea" />
+  <title>Zhixiang Zhang — Data Science & AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">ZZ</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle color theme">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">DATA SCIENCE · AI SYSTEMS · DESIGN</p>
+        <h1 id="hero-title">Zhixiang<br />Zhang</h1>
+        <p class="hero-summary">
+          I build data-driven products, interactive stories, and generative AI workflows that turn complex ideas into usable experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View selected work</a>
+          <button class="button button-secondary" id="printResume" type="button">Save résumé as PDF</button>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Profile summary">
+        <div class="availability"><span></span> Open to data science, ML, and AI opportunities</div>
+        <dl>
+          <div>
+            <dt>Based in</dt>
+            <dd>San Diego, California</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd>UC San Diego · Data Science</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Applied ML, visualization, generative AI</dd>
+          </div>
+        </dl>
+        <div class="card-links">
+          <a href="https://github.com/xxzhangzzx" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="mailto:xxzhangzzx@gmail.com">Email ↗</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest">
+      <div class="ticker-track">
+        <span>DATA VISUALIZATION</span><i>✦</i><span>GENERATIVE AI</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>AI WORKFLOWS</span><i>✦</i><span>INTERACTION DESIGN</span><i>✦</i>
+        <span>DATA VISUALIZATION</span><i>✦</i><span>GENERATIVE AI</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>AI WORKFLOWS</span><i>✦</i><span>INTERACTION DESIGN</span><i>✦</i>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell split-section">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-content reveal">
+        <h2>Data-minded.<br />Design-conscious.<br />Always building.</h2>
+        <div class="about-grid">
+          <p>
+            I am a Data Science student at the University of California San Diego with an interest in visual communication, machine learning, and practical AI systems.
+          </p>
+          <p>
+            My work spans statistical analysis, interactive web visualization, local generative models, and automated image-to-video pipelines. I enjoy connecting technical depth with clear, polished user experiences.
+          </p>
+        </div>
+
+        <div class="skill-groups">
+          <div>
+            <h3>Languages</h3>
+            <p>Python · JavaScript · HTML · CSS · SQL</p>
+          </div>
+          <div>
+            <h3>Data & ML</h3>
+            <p>Pandas · NumPy · scikit-learn · statsmodels · PyTorch · PySpark</p>
+          </div>
+          <div>
+            <h3>Visualization</h3>
+            <p>D3.js · Matplotlib · Observable-style interaction · data storytelling</p>
+          </div>
+          <div>
+            <h3>AI & Systems</h3>
+            <p>ComfyUI · FLUX · OpenAI/xAI APIs · FFmpeg · Git · Docker workflows</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section section-shell">
+      <div class="section-heading reveal">
+        <div class="section-label">02 / Selected Work</div>
+        <h2>Projects that combine analysis, systems, and storytelling.</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <p class="project-type">Interactive Climate Data Story</p>
+            <h3>ClimateLens</h3>
+            <p>
+              Designed an interactive narrative exploring California climate patterns and San Diego's coastal environment through long-term temperature, sea-surface, sea-level, and precipitation data.
+            </p>
+            <ul class="project-tags" aria-label="Technologies">
+              <li>D3.js</li><li>JavaScript</li><li>NOAA / CMIP6</li><li>Data storytelling</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="https://jamrvidal.github.io/climatelens/" target="_blank" rel="noreferrer" aria-label="Open ClimateLens">Live ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <p class="project-type">Statistical Modeling</p>
+            <h3>Rotten Tomatoes Audience Analysis</h3>
+            <p>
+              Investigated the relationship between critic and audience ratings across 16,000+ films using exploratory analysis, correlation, and regression, with careful attention to assumptions and limitations.
+            </p>
+            <ul class="project-tags" aria-label="Technologies">
+              <li>Python</li><li>Pandas</li><li>Regression</li><li>Statistical inference</li>
+            </ul>
+          </div>
+          <div class="project-links"><span>Research</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <p class="project-type">Generative AI Automation</p>
+            <h3>Script-to-Video Pipeline</h3>
+            <p>
+              Built a modular workflow that converts a Word screenplay and character reference into prompts, images, video clips, continuity checks, transition shots, and a final edited sequence.
+            </p>
+            <ul class="project-tags" aria-label="Technologies">
+              <li>Python</li><li>OpenAI API</li><li>xAI API</li><li>FFmpeg</li><li>Computer vision</li>
+            </ul>
+          </div>
+          <div class="project-links"><span>Private build</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">04</div>
+          <div class="project-main">
+            <p class="project-type">Data Science</p>
+            <h3>Recipe Rating Analysis</h3>
+            <p>
+              Explored Food.com recipes and user ratings, combining data cleaning, hypothesis testing, prediction, and fairness analysis in an end-to-end data science project.
+            </p>
+            <ul class="project-tags" aria-label="Technologies">
+              <li>Python</li><li>scikit-learn</li><li>EDA</li><li>Model evaluation</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/xxzhangzzx/recipe-rating-analysis" target="_blank" rel="noreferrer" aria-label="Open recipe rating analysis repository">Code ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell split-section experience-section">
+      <div class="section-label reveal">03 / Education & Focus</div>
+      <div class="timeline reveal">
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-meta">University of California San Diego</div>
+          <h3>B.S. in Data Science</h3>
+          <p>
+            Coursework and projects in machine learning, statistical modeling, data visualization, distributed systems, probability, and applied data science.
+          </p>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-meta">Current technical focus</div>
+          <h3>Generative AI systems and visual workflows</h3>
+          <p>
+            Experimenting with local image models, identity consistency, controllable generation, LoRA training, multimodal evaluation, and automated video production.
+          </p>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-meta">Creative practice</div>
+          <h3>Design and personal brand development</h3>
+          <p>
+            Building web experiences that communicate technical work with strong layout, typography, interaction, and visual hierarchy.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section-shell reveal">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a project, role,<br />or idea worth exploring?</h2>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:xxzhangzzx@gmail.com">xxzhangzzx@gmail.com</a>
+        <a class="button button-secondary" href="https://github.com/xxzhangzzx" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p>© <span id="year"></span> Zhixiang Zhang</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

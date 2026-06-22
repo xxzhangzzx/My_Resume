@@ -142,8 +142,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   color: var(--muted);
 }
 
-.hero-actions,
-.contact-actions {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -234,8 +233,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 
 .about-content h2,
-.section-heading h2,
-.contact-section h2 {
+.section-heading h2 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(3.2rem, 7.1vw, 7.1rem);
@@ -304,9 +302,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .timeline-item h3 { margin: 10px 0 12px; font-size: clamp(1.7rem, 3vw, 2.8rem); letter-spacing: -0.04em; }
 .timeline-item p { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.75; }
 
-.contact-section { padding-block: 150px; text-align: center; }
-.contact-section h2 { margin-top: 22px; }
-.contact-actions { justify-content: center; }
 
 .site-footer {
   display: flex;
@@ -339,9 +334,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .hero { min-height: auto; padding-block: 80px 54px; }
   .hero h1 { font-size: clamp(4.45rem, 25vw, 7rem); }
   .hero-summary { font-size: 1rem; }
-  .hero-actions, .contact-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions { flex-direction: column; align-items: stretch; }
   .button { width: 100%; }
-  .split-section, .projects-section, .contact-section { padding-block: 92px; }
+  .split-section, .projects-section { padding-block: 92px; }
   .about-grid, .skill-groups { grid-template-columns: 1fr; }
   .about-grid { gap: 22px; }
   .project-card { grid-template-columns: 1fr; gap: 16px; }
@@ -357,7 +352,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media print {
   :root { --bg: #fff; --surface: #fff; --text: #111; --muted: #444; --line: #ccc; }
-  .noise, .site-header, .ticker, .hero-actions, .contact-section, .site-footer { display: none !important; }
+  .noise, .site-header, .ticker, .hero-actions, .site-footer { display: none !important; }
   body { background: #fff; font-size: 10pt; }
   .section-shell { width: 100%; }
   .hero { min-height: 0; padding: 0 0 24px; grid-template-columns: 1.3fr 0.7fr; gap: 32px; }
